@@ -1,5 +1,5 @@
 FROM python:3.10-slim
-WORKDIR /home/ubuntu/dump
+WORKDIR /code
 COPY requirements.txt .
 COPY dump.py .
 RUN pip install -r requirements.txt
